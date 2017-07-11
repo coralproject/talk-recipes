@@ -1,5 +1,5 @@
 {
-  "name": "talk-plugin-avatar",
+  "name": "@coralproject/talk-plugin-avatar",
   "version": "1.0.0",
   "description": "Provides support for avatars hosted via third party",
   "main": "index.js",
