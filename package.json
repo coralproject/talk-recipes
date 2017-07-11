@@ -1,11 +1,8 @@
 {
   "name": "talk-plugin-avatar",
   "version": "1.0.0",
-  "description": "",
+  "description": "Provides support for avatars hosted via third party",
   "main": "index.js",
-  "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
-  },
-  "author": "Belen Curcio <curciobelen@gmail.com>",
-  "license": "ISC"
+  "author": "The Coral Project Team <coral@mozillafoundation.org>",
+  "license": "Apache v2.0"
 }
