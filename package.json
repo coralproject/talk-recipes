@@ -4,5 +4,5 @@
   "description": "Provides support for avatars hosted via third party",
   "main": "index.js",
   "author": "The Coral Project Team <coral@mozillafoundation.org>",
-  "license": "Apache v2.0"
+  "license": "Apache-2.0"
 }
