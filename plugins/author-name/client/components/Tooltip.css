@@ -1,0 +1,48 @@
+.tooltip {
+  background-color: white;
+  border: solid 1px #999;
+  border-radius: 3px;
+  padding: 10px;
+  position: absolute;
+  -webkit-box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  box-shadow: 0 2px 2px 0 rgba(0,0,0,0.14), 0 1px 5px 0 rgba(0,0,0,0.12), 0 3px 1px -2px rgba(0,0,0,0.2);
+  z-index: 10;
+  top: 26px;
+  left: 0px;
+  width: 200px;
+  text-align: left;
+  color: #616161;
+}
+
+.tooltip::before{
+  content: '';
+  border: 10px solid transparent;
+  border-top-color: #999;
+  position: absolute;
+  left: 6px;
+  top: -21px;
+  transform: rotate(180deg);
+}
+
+.tooltip::after{
+  content: '';
+  border: 10px solid transparent;
+  border-top-color: white;
+  position: absolute;
+  left: 6px;
+  top: -20px;
+  transform: rotate(180deg);
+}
+
+.memberSince {
+  color: #484747;
+  margin-left: 4px;
+  letter-spacing: 0.2px;
+  font-size: 0.9em;
+  vertical-align: middle;
+}
+
+.icon {
+  font-size: 1.4em;
+  vertical-align: middle;
+}
