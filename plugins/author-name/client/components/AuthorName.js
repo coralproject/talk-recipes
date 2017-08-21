@@ -6,6 +6,7 @@ import styles from './AuthorName.css';
 export default ({props: {comment}, state: {tooltip}, showTooltip, hideTooltip}) => { 
   return (
     <span 
+      className={styles.authorNameContainer}
       onMouseEnter={showTooltip}
       onMouseLeave={hideTooltip} >
 
