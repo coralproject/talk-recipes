@@ -27,7 +27,10 @@ class AuthorNameContainer extends React.Component {
 
   render() {
     return <AuthorName 
-      {...this}
+      comment={this.props.comment}
+      tooltip={this.state.tooltip}
+      showTooltip={this.showTooltip}
+      hideTooltip={this.hideTooltip}
     />;
   }
 }

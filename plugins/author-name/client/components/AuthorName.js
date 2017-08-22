@@ -3,7 +3,7 @@ import {t} from 'plugin-api/beta/client/services';
 import Tooltip from './Tooltip';
 import styles from './AuthorName.css';
 
-export default ({props: {comment}, state: {tooltip}, showTooltip, hideTooltip}) => { 
+export default ({comment, tooltipVisible, showTooltip, hideTooltip}) => { 
   return (
     <span 
       className={styles.authorNameContainer}
@@ -14,7 +14,7 @@ export default ({props: {comment}, state: {tooltip}, showTooltip, hideTooltip}) 
         {comment.user.username}
       </span>
       
-      {tooltip && <Tooltip memberSinceDate={comment.user.created_at} />}
+      {tooltipVisible && <Tooltip memberSinceDate={comment.user.created_at} />}
     </span>
   );
 };

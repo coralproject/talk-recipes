@@ -1,6 +1,6 @@
 {
   "name": "@coralproject/talk-plugin-author-name",
-  "version": "1.0.0",
+  "version": "0.1.0",
   "description": "A Recipe to override username slots in Talk",
   "main": "index.js",
   "author": "The Coral Project Team <coral@mozillafoundation.org>",
