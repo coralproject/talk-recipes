@@ -9,7 +9,7 @@ export default ({className = '', memberSinceDate}) => (
   <div className={cn(styles.tooltip, className)}>
     <Icon name="date_range" className={styles.icon} />
     <span className={styles.memberSince}>
-      {t('talk-plugin-author-name.member_since')}: {moment(memberSinceDate).format('MMMM DD, YYYY')}
+      {t('talk-plugin-author-name.member_since')}: {moment(new Date(memberSinceDate)).format('MMM DD, YYYY')}
     </span>
   </div>
 );
