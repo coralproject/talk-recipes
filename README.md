@@ -8,5 +8,7 @@ Recipes are plugin templates provided by the Coral core team. Developers can use
 
 - [Translations Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/translations)
 
+- [Author Name Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/author-name)
+
 #### Our Chefs :heart:
 https://github.com/coralproject/talk/graphs/contributors
