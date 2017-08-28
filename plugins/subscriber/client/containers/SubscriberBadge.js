@@ -3,20 +3,22 @@ import SubscriberBadge from '../components/SubscriberBadge';
 import {compose, gql} from 'react-apollo';
 import {withFragments, excludeIf} from 'plugin-api/beta/client/hocs';
 
-const isStaff = (tags = []) => tags.some((t) => t.tag.name === 'STAFF');
+const isSubscriber = (tags = []) => tags.some((t) => t.tag.name === 'SUBSCRIBER');
 
 const enhance = compose(
   withFragments({
     comment: gql`
       fragment TalkSubscriberBadge_SubscriberBadge_comment on Comment {
-        tags {
-          tag {
-            name
+        user {
+          tags {
+            tag {
+              name
+            }
           }
         }
       }`
   }),
-  excludeIf(({comment}) => isStaff(comment.tags))
+  excludeIf(({comment}) => !isSubscriber(comment.user.tags))
 );
   
 export default enhance(SubscriberBadge);
