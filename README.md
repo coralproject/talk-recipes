@@ -10,7 +10,5 @@ Recipes are plugin templates provided by the Coral core team. Developers can use
 
 - [Author Name Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/author-name)
 
-- [Subscriber Badge Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/subscriber)
-
 #### Our Chefs :heart:
 https://github.com/coralproject/talk/graphs/contributors
