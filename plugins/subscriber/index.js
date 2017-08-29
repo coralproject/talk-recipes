@@ -4,7 +4,7 @@ module.exports = {
       name: 'SUBSCRIBER',
       permissions: {
         public: true,
-        self: true,
+        self: false,
         roles: []
       },
       models: ['USERS'],
