@@ -12,5 +12,7 @@ Recipes are plugin templates provided by the Coral core team. Developers can use
 
 - [Subscriber Badge Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/subscriber)
 
+- [SSO Custom Auth Recipe](https://github.com/coralproject/talk-recipes/tree/master/plugins/custom-auth)
+
 #### Our Chefs :heart:
 https://github.com/coralproject/talk/graphs/contributors
