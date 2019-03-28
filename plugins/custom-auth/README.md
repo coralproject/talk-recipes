@@ -1,4 +1,4 @@
-#talk-plugin-custom-auth Recipie
+# talk-plugin-custom-auth Recipie
 
 Plugin Recipes are plugin templates used to help bootstrap the development of a plugin. When first developing a plugin with a recipe, you can simply copy the desired recipe locally, and determine which files need to be modified to suit your needs.
 
