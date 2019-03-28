@@ -16,5 +16,5 @@ Example code to update external user details stored in Talk from a JWT.
 Example code to replace a standard Talk data point with your own custom value. Please note this step is optional and only applies if you are passing additinal user details to Talk and would like to use your custom values in place of standard Talk user fields. 
 
 *Need more help with your custom SSO integration?*
-Email [Support](support@coralproject.net)
+Email Us at: support @ coralproject.net
 
