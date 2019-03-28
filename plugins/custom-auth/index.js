@@ -21,7 +21,8 @@ module.exports = {
 
     // Persisting email address in Talk is required only if sending notifications from Talk.
     // If email was included on the JWT we can add it to a "local" profile
-    // and push that into the user's Profiles array.
+    // and push that into the user's Profiles array. 
+    // To avoid duplication of Profiles, you may want add a check if user.wasUpserted
     // upsertExternalUser above will also create a profile as: { provider:jwt.iss, id:jwt.sub }
     const email = jwt.email.toLowerCase();
     user.profiles.push({
